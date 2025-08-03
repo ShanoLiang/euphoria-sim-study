@@ -1,0 +1,554 @@
+{
+  "$schema": "https://raw.githubusercontent.com/revisit-studies/study/v2.1.1/src/parser/StudyConfigSchema.json",
+  "baseComponents": {
+    "unity-game": {
+      "type": "website",
+      "response": [
+        {
+          "id": "gamecode",
+          "prompt": "Please enter the game's completion code to move on to the final part of the study.",
+          "secondaryText": "Please note: Entering an incorrect or random code may result in disqualification from this study.",
+          "placeholder": "Enter the game completion code.",
+          "location": "belowStimulus",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "correctAnswer": [
+        {
+        "answer": "88888888",
+        "id": "gamecode"
+        }
+      ],
+      "path": "euphoria-sim/assets/revisit-wrapper.html",
+      "instructionLocation": "aboveStimulus",
+      "provideFeedback": true,
+      "allowFailedTraining": false,
+      "trainingAttempts": 10
+    }
+  },
+  "components": {
+    "introduction": {
+      "correctAnswer": [],
+      "path": "euphoria-sim/assets/introduction.md",
+      "response": [
+        {
+          "id": "prolificId",
+          "prompt": "Before we move on, please enter your Prolific ID first",
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Prolific ID",
+          "paramCapture": "PROLIFIC_PID"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Consent Form": {
+      "correctAnswer": [],
+      "path": "euphoria-sim/assets/consent.md",
+      "nextButtonText": "Agree",
+      "response": [
+        {
+          "id": "signature",
+          "location": "belowStimulus",
+          "placeholder": "Please provide your signature",
+          "prompt": "Your signature (It can be your preferred name)",
+          "required": true,
+          "type": "shortText"
+        },
+        {
+          "id": "accept",
+          "location": "belowStimulus",
+          "options": [
+            "Decline",
+            "Accept"
+          ],
+          "prompt": "Do you consent to the study and wish to continue?",
+          "required": true,
+          "requiredValue": "Accept",
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Attention Check A": {
+      "correctAnswer": [        
+        {
+          "answer": "Disagree",
+          "id": "attentionchecka"
+        }
+      ],
+      "path": "euphoria-sim/assets/attentioncheck-a.md",
+      "response": [
+        {
+          "id": "attentionchecka",
+          "prompt": "",
+          "location": "belowStimulus",
+          "required": true,
+          "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+          ],
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Attention Check B": {
+      "correctAnswer": [        
+        {
+          "answer": "Neutral",
+          "id": "attentioncheckb"
+        }
+      ],
+      "path": "euphoria-sim/assets/attentioncheck-b.md",
+      "response": [
+        {
+          "id": "attentioncheckb",
+          "prompt": "",
+          "location": "belowStimulus",
+          "required": true,
+          "options": [
+            "Strongly Agree",
+            "Agree",
+            "Neutral",
+            "Disagree",
+            "Strongly Disagree"
+          ],
+          "type": "radio"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Disqualification": {
+      "correctAnswer": [],
+      "path": "euphoria-sim/assets/disqualification.md",
+      "nextButtonText":"Disqualified",
+      "response": [
+        {
+          "hidden": true,
+          "id": "disqualification",
+          "prompt":"You have been disqualified from this study.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    },
+    "Game Intro": {
+      "correctAnswer": [],
+      "path": "euphoria-sim/assets/game-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Game": {
+        "instruction": "Your goal in this game is to build a meaningful relationship with at least one character in Rainborough and complete their full story arc. Once you do so, you will receive a code that allows you to proceed to the final section of this study. After you receive the code, please enter the code in the box located at the bottom of the game screen to move on to the final section of the study. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen.",
+        "baseComponent": "unity-game"
+    },
+    "Questionnaire Intro": {
+      "response": [],
+      "path": "euphoria-sim/assets/questionnaire-intro.md",
+      "type": "markdown"
+    },
+    "Questionnaire1": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q1",
+          "location": "belowStimulus",
+          "prompt": "Question 1: First, how would you describe your identity in terms of gender?",
+          "required": true,
+          "placeholder": "Please enter description about your gender identity",
+          "type": "longText",
+          "withDivider": true
+        },
+        {
+          "id": "q2",
+          "location": "belowStimulus",
+          "prompt": "Question 2: Please recall a moment from playing the game that evoked an especially strong emotional response about gender identities. The emotional response could be positive or negative. Describe the situation, how you felt, and why.",
+          "required": true,
+          "placeholder": "Please enter your answer here",
+          "type": "longText",
+          "withDivider": true
+        },
+        {
+          "id": "q3",
+          "prompt": "Question 3: Overall, this game gave me positive feelings related to gender identities.",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree",
+            "Not Apply To Me"
+          ],
+          "questionOptions": [
+            ""
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire2": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q4",
+          "location": "belowStimulus",
+          "prompt": "Question 4: Please describe aspects of the trans characters in the game that left a strong impression on you. Which character or storyline stood out, and how did it make you feel? Why? For example, did you feel that the character avoided stereotypes or stigmatized portrayals?",
+          "required": true,
+          "placeholder": "Please enter your answer here",
+          "type": "longText"
+        },
+        {
+          "id": "q5",
+          "prompt": "Question 5: The trans character(s) in the game were portrayed in an authentic and positive way, without stereotypes or stigmatization.",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree",
+            "Not Apply To Me"
+          ],
+          "questionOptions": [
+            ""
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        },
+        {
+          "id": "q6",
+          "location": "belowStimulus",
+          "prompt": "Question 6: Did the game make you feel that trans characters were lived into everyday life as normal people in the game world, rather than being treated as outsiders or abnormal? Please describe the scenes or reasons that gave you this impression. For example, in what way does it make you feel that these trans characters are being treated as normal people? How did that affect you?",
+          "required": true,
+          "placeholder": "Please enter your answer here",
+          "type": "longText"
+        },
+        {
+          "id": "q7",
+          "prompt": "Question 7: The game naturally integrated trans identities into the narrative and world, without portraying them as unusual, abnormal, or “other.” ",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree",
+            "Not Apply To Me"
+          ],
+          "questionOptions": [
+            ""
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire3": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q8",
+          "location": "belowStimulus",
+          "prompt": "Question 8: Do you enjoy the room/home customization gameplay? Do you feel it lets you express yourself? How did using these options affect your experience?",
+          "required": true,
+          "placeholder": "Please enter your answer here",
+          "type": "longText"
+        },
+        {
+          "id": "q9",
+          "prompt": "Question 9: I felt joyful expressing myself by customizing my in-game home.",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree",
+            "Not Apply To Me"
+          ],
+          "questionOptions": [
+            ""
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        },
+        {
+          "id": "q10",
+          "location": "belowStimulus",
+          "prompt": "Question 10: Was there a moment when a character disclosed or shared their trans identity, stories, or experiences in the game? If so, how did that story-sharing by the character affect your experience? How do you feel?",
+          "secondaryText": "Note: Please describe the moment and your thoughts or feelings about it.",
+          "required": true,
+          "placeholder": "Please enter your answer here",
+          "type": "longText"
+        },
+        {
+          "id": "q11",
+          "prompt": "Question 11: Trans characters in the game were able to share their identities or stories in ways that felt natural and comfortable.",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree",
+            "Not Apply To Me"
+          ],
+          "questionOptions": [
+            ""
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire4": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q12-18",
+          "prompt": "Questions (Q) 12-18:",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree",
+            "Not Apply To Me"
+          ],
+          "questionOptions": [
+            "Q12: I feel my identity and existence are respected through interactions with other characters in this game.",
+            "Q13: I feel my identity is affirmed and recognized through interactions with other characters in this game.",
+            "Q14: I feel comfortable and affirmed existing as myself in the game's spaces and social settings.",
+            "Q15: I feel included by in-game characters who have the same gender as me.",
+            "Q16: This game helped me feel like I belonged to a broader gender-diverse community.",
+            "Q17: Through characters or storylines, I sensed mutual understanding and support within the trans community.",
+            "Q18: The game prompted me to imagine real-life experiences of recognition and belonging as a trans person."
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire5": {
+      "correctAnswer": [],
+      "response": [
+        {
+          "id": "q19-27",
+          "prompt": "Questions (Q) 19-27:",
+          "location": "belowStimulus",
+          "answerOptions": [
+            "Strongly Disagree",
+            "Disagree",
+            "Neutral",
+            "Agree",
+            "Strongly Agree",
+            "Not Apply To Me"
+          ],
+          "questionOptions": [
+            "Q19: I feel I can form bonds with other trans characters in the game's scenarios by interacting or working with them.",
+            "Q20: The game made me feel safe, as my gender expression in the game will never be questioned.",
+            "Q21: I feel comfortable and affirmed after all, even when other characters share their stories that may involve pain or sadness with me.",
+            "Q22: Seeing a character in the game who shares similar gender experiences to mine made me feel seen and understood.",
+            "Q23: This game made me feel joyful and proud, as I can be myself.",
+            "Q24: I feel joy and happiness in the game as I can be myself around other characters.",
+            "Q25: I feel happy and affirmed through other characters' responses to my identity.",
+            "Q26: I feel joy and happiness when I'm building relationships with other characters in the game.",
+            "Q27: I feel joy and happiness seeing the game's trans characters living in ways not always possible in real life."
+          ],
+          "required": true,
+          "withDivider": true,
+          "type": "matrix-radio"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Questionnaire6": {
+      "correctAnswer": [],
+      "instruction":"# The Last three questions:",
+      "response": [
+        {
+          "id": "q28",
+          "location": "belowStimulus",
+          "prompt": "Question 28: Our game is an early prototype version as proof of concept, and our long-term goal is to develop a game for the trans community's well-being and joy. In the future, if a fully developed version of this game, or a game with similar topics, is released on game platforms such as Switch, PlayStation, Xbox Series, and Steam, would you be interested in playing it? Please share your thoughts with us.",
+          "required": true,
+          "placeholder": "Please enter your answer here",
+          "type": "longText"
+        },
+        {
+          "id": "q29",
+          "location": "belowStimulus",
+          "prompt": "Question 29: For this current version of our game, what changes or improvements would you suggest for further development?",
+          "secondaryText": "Note: For example, what aspect of the game do you think we should put more effort into developing, and what aspect we haven't, but we should?",
+          "required": true,
+          "placeholder": "Please enter your answer here",
+          "type": "longText"
+        },
+                {
+          "id": "q30",
+          "location": "belowStimulus",
+          "prompt": "Question 30: For similar games or apps that aim to improve the trans community's well-being, what aspects do you think are important to focus on, and what aspects do you feel are missing?",
+          "required": true,
+          "placeholder": "Please enter your answer here",
+          "type": "longText"
+        }
+      ],
+      "type": "questionnaire"
+    },
+    "Demographics Intro": {
+      "correctAnswer": [],
+      "path": "euphoria-sim/assets/demographics-intro.md",
+      "response": [],
+      "type": "markdown"
+    },
+    "Demographics Information": {
+      "correctAnswer": [],
+      "path": "euphoria-sim/assets/demographics.md",
+      "response": [
+        {
+          "id": "genderidentity",
+          "location": "belowStimulus",
+          "options": [
+            "Transfemme / Trans woman / Female",
+            "Transmasculine / Trans man / Male",
+            "Trans non-binary / Trans non-confirming",
+            "Genderfluid",
+            "Prefer not to say"
+          ],
+          "prompt": "What is your gender identity?",
+          "required": true,
+          "secondaryText": "You can select multiple options",
+          "type": "checkbox",
+          "withOther": true
+        },
+        {
+          "id": "education",
+          "location": "belowStimulus",
+          "options": [
+            "Less than high school degree",
+            "High school degree or equivalent (e.g., GED)",
+            "Some college but no degree",
+            "Associate degree / trade degree",
+            "Bachelor degree",
+            "Graduate degree (e.g., MA, MPhil, PhD, etc.)",
+            "Prefer not to say"
+          ],
+          "prompt": "What is the highest level of education you have completed or the highest degree you have received?",
+          "required": true,
+          "type": "radio"
+        },
+        {
+          "id": "age",
+          "location": "belowStimulus",
+          "placeholder": "Please provide your age number",
+          "prompt": "What is your age?",
+          "secondaryText": "You can write N/A if you prefer.",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "type": "markdown"
+    }
+  },
+  "sequence": {
+    "components": [
+      "introduction",
+      "Consent Form",
+      {
+        "components": [
+          "Attention Check A",
+          "Disqualification"
+        ],
+        "order": "fixed",
+        "skip": [
+          {
+            "name": "Attention Check A",
+            "check": "response",
+            "responseId": "attentionchecka",
+            "value": "Disagree",
+            "comparison": "equal",
+            "to": "Game Intro"
+          }
+        ]
+      },
+      "Game Intro",
+      "Game",
+      "Questionnaire Intro",
+      {
+        "components": [
+          "Attention Check B",
+          "Disqualification"
+        ],
+        "order": "fixed",
+        "skip": [
+          {
+            "name": "Attention Check B",
+            "check": "response",
+            "responseId": "attentioncheckb",
+            "value": "Neutral",
+            "comparison": "equal",
+            "to": "Questionnaire1"
+          }
+        ]
+      },
+      {
+        "components": [
+          "Questionnaire1",
+          "Questionnaire2",
+          "Questionnaire3",
+          "Questionnaire4",
+          "Questionnaire5",
+          "Questionnaire6"
+        ],
+        "order": "fixed"
+      },
+      "Demographics Intro",
+      "Demographics Information"
+    ],
+    "order": "fixed"
+  },
+  "studyMetadata": {
+    "authors": [
+      "Shano Liang"
+    ],
+    "date": "2025-08-01",
+    "description": "",
+    "organizations": [
+      "VIS Lab"
+    ],
+    "title": "Transgender Game Study",
+    "version": "1.0"
+  },
+  "uiConfig": {
+    "contactEmail": "sliang1@wpi.edu",
+    "helpTextPath": "euphoria-sim/assets/help.md",
+    "logoPath": "revisitAssets/revisitLogoSquare.svg",
+    "timeoutReject": true,
+    "nextOnEnter": true,
+    "sidebar": false,
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [unknown](unknown)",
+    "withProgressBar": true,
+    "urlParticipantIdParam": "PROLIFIC_PID",
+    "participantNameField": "introduction.prolificId",
+    "autoDownloadStudy": false,
+    "autoDownloadTime": 5000
+  }
+}
