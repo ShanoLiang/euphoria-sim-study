@@ -212,11 +212,11 @@
           "prompt": "Question 5: The trans character(s) in the game were portrayed in an authentic and positive way, without stereotypes or stigmatization.",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -239,11 +239,11 @@
           "prompt": "Question 7: The game naturally integrated trans identities into the narrative and world, without portraying them as unusual, abnormal, or “other.” ",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -272,11 +272,11 @@
           "prompt": "Question 9: I felt joyful expressing myself by customizing my in-game home.",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -300,11 +300,11 @@
           "prompt": "Question 11: Trans characters in the game were able to share their identities or stories in ways that felt natural and comfortable.",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -325,11 +325,11 @@
           "prompt": "Questions (Q) 12-18:",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -356,11 +356,11 @@
           "prompt": "Questions (Q) 19-27:",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
