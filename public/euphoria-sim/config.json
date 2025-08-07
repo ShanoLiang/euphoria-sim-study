@@ -145,7 +145,7 @@
       "type": "markdown"
     },
     "Game": {
-        "instruction": "Your goal in this game is to build a meaningful relationship with at least one character in Rainborough and complete their full story arc. Once you do so, you will receive a code that allows you to proceed to the final section of this study. After you receive the code, please enter the code in the box located at the bottom of the game screen to move on to the final section of the study. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen.",
+        "instruction": "Your goal in this game is to build a meaningful relationship with at least one character in Rainborough and complete their full story arc. Once you do so, you will receive a code that allows you to proceed to the final section of this study. After you receive the code, please enter the code in the box located at the bottom of the game screen to move on to the final section of the study. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen. **It may take 10-20 seconds to load the game after entering your Prolific ID. Please wait for a second, thank you. We suggest maximizing your browser window, as the video game can be on the larger side.**",
         "baseComponent": "unity-game"
     },
     "Questionnaire Intro": {
@@ -212,11 +212,11 @@
           "prompt": "Question 5: The trans character(s) in the game were portrayed in an authentic and positive way, without stereotypes or stigmatization.",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -239,11 +239,11 @@
           "prompt": "Question 7: The game naturally integrated trans identities into the narrative and world, without portraying them as unusual, abnormal, or “other.” ",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -272,11 +272,11 @@
           "prompt": "Question 9: I felt joyful expressing myself by customizing my in-game home.",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -300,11 +300,11 @@
           "prompt": "Question 11: Trans characters in the game were able to share their identities or stories in ways that felt natural and comfortable.",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -325,11 +325,11 @@
           "prompt": "Questions (Q) 12-18:",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
@@ -356,11 +356,11 @@
           "prompt": "Questions (Q) 19-27:",
           "location": "belowStimulus",
           "answerOptions": [
-            "Strongly Disagree",
-            "Disagree",
-            "Neutral",
-            "Agree",
-            "Strongly Agree",
+            "Not At All",
+            "A Little",
+            "Moderately",
+            "Quite a bit",
+            "Very Much",
             "Not Apply To Me"
           ],
           "questionOptions": [
