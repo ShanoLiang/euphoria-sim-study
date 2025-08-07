@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | UnityWebGLBuildExample</title>
+    <title>Unity WebGL Player | Rainborough</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">UnityWebGLBuildExample</div>
+        <div id="unity-build-title">Rainborough</div>
       </div>
     </div>
     <script>
@@ -32,7 +32,6 @@
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
 
-      var unityInstanceGlobal = null; // Store Unity instance globally
       // Shows a temporary message banner/ribbon for a few seconds, or
       // a permanent error message on top of the canvas if type=='error'.
       // If type=='warning', a yellow highlight color is used.
@@ -60,13 +59,13 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build.data",
-        frameworkUrl: buildUrl + "/Build.framework.js",
-        codeUrl: buildUrl + "/Build.wasm",
+        dataUrl: buildUrl + "/Build.data.unityweb",
+        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "UnityWebGLBuildExample",
-        productVersion: "1.0",
+        companyName: "Gender Euphoria Sim Team",
+        productName: "Rainborough",
+        productVersion: "0.2",
         showBanner: unityShowBanner,
       };
 
@@ -106,46 +105,17 @@
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
-        }).then((unityInstance) => {
-          unityInstanceGlobal = unityInstance; // Save to global
-          loadingBar.style.display = "none";
-          fullscreenButton.onclick = () => {
-            unityInstance.SetFullscreen(1);
-          };
-    
-          // Now that Unity is ready, notify the parent
-          console.log("[index.html] Unity instance ready, notifying parent");
-          window.parent.postMessage({ type: "unity_ready" }, "*");
-    
-        }).catch((message) => {
-          alert(message);
-        });
-      };
+              }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+                fullscreenButton.onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+              }).catch((message) => {
+                alert(message);
+              });
+            };
 
       document.body.appendChild(script);
-
-            // Listen for messages from the parent (e.g. wrapper.html)
-            window.addEventListener("message", (event) => {
-        if (event.data?.type === "SetSpawnDirection") {
-          const direction = event.data.value;
-          console.log("[index.html] Received SetSpawnDirection:", direction);
-    
-          if (unityInstanceGlobal) {
-            unityInstanceGlobal.SendMessage('JSBridge', 'SetSpawnDirection', direction.toString());
-          } else {
-            console.warn("[index.html] Unity instance is not ready yet.");
-          }
-        }
-      });
-    
-      // Called by Unity to send click data back to parent
-      window.SendTargetClickedMessage = function (jsonPayload) {
-        console.log("[index.html] Sending target click data to parent:", jsonPayload);
-        window.parent.postMessage({
-          type: "target_click",
-          payload: JSON.parse(jsonPayload)
-        }, "*");
-      };
 
     </script>
   </body>

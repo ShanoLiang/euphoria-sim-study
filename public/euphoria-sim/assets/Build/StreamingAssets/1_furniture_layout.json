@@ -1,0 +1,531 @@
+{
+    "records": [
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 75,
+                "gridY": 106,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 81,
+                "gridY": 131,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": true,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 106,
+                "gridY": 95,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 95,
+                "gridY": 106,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": true,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 106,
+                "gridY": 75,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 100,
+                "gridY": 131,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": true,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 106,
+                "gridY": 55,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Floor_6",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 44,
+                "gridY": 43,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D67F42FF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 56,
+                "gridY": 106,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 120,
+                "gridY": 131,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": true,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 131,
+                "gridY": 120,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": true,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 131,
+                "gridY": 100,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Wall_5",
+            "data": {
+                "isSelectable": true,
+                "isOnback": true,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 131,
+                "gridY": 80,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D1BD3EFF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F1DD2CFF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Fridge_1",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": true,
+                "isDeletable": true,
+                "gridX": 102,
+                "gridY": 102,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D4F1EFFF",
+                    "C3E9DFFF",
+                    "C3E9DFFF",
+                    "C0B3B6FF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D4F1EF00",
+                    "C3E9DF00",
+                    "C3E9DF00"
+                ]
+            }
+        },
+        {
+            "prefabName": "Window_1",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 112,
+                "gridY": 124,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F6E6D1FF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Kitchen_Cabinet_1",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 79,
+                "gridY": 101,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "B96437FF",
+                    "A9BCBAFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Kitchen_Cabinet_1",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 70,
+                "gridY": 101,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "B96437FF",
+                    "A9BCBAFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Vanity_2",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": true,
+                "isDeletable": true,
+                "gridX": 85,
+                "gridY": 96,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "F8A54EFF",
+                    "D4D4D4FF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Cookingoil",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 77,
+                "gridY": 106,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Microwave_1",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 82,
+                "gridY": 105,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "B6C8C7FF",
+                    "B6C8C7FF"
+                ],
+                "backOverlayHexColors": [
+                    "FFFFFFFF",
+                    "B6C8C7FF",
+                    "B6C8C7FF"
+                ]
+            }
+        },
+        {
+            "prefabName": "Floor_3",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 84,
+                "gridY": 63,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "AAB9AAFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Floor_3",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 84,
+                "gridY": 83,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "AAB9AAFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Floor_3",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 64,
+                "gridY": 83,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "AAB9AAFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Floor_3",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 64,
+                "gridY": 63,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "AAB9AAFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Floor_3",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 44,
+                "gridY": 63,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "AAB9AAFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Floor_3",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 44,
+                "gridY": 83,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "AAB9AAFF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Floor_6",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 64,
+                "gridY": 43,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D67F42FF"
+                ],
+                "backOverlayHexColors": []
+            }
+        },
+        {
+            "prefabName": "Floor_6",
+            "data": {
+                "isSelectable": true,
+                "isOnback": false,
+                "isFlipped": false,
+                "isDeletable": true,
+                "gridX": 84,
+                "gridY": 43,
+                "sortingOffset": 0,
+                "defaultOverlayHexColors": [
+                    "FFFFFFFF",
+                    "D67F42FF"
+                ],
+                "backOverlayHexColors": []
+            }
+        }
+    ]
+}
