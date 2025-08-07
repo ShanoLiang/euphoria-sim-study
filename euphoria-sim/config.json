@@ -145,8 +145,34 @@
       "type": "markdown"
     },
     "Game": {
-        "instruction": "Your goal in this game is to build a meaningful relationship with at least one character in Rainborough and complete their full story arc. Once you do so, you will receive a code that allows you to proceed to the final section of this study. After you receive the code, please enter the code in the box located at the bottom of the game screen to move on to the final section of the study. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen.",
-        "baseComponent": "unity-game"
+      "instruction": "Your goal in this game is to build a meaningful relationship with at least one character in Rainborough and complete their full story arc. Once you do so, you will receive a code that allows you to proceed to the final section of this study. After you receive the code, please enter the code in the box located at the bottom of the game screen to move on to the final section of the study. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen.",
+      "baseComponent": "unity-game"
+    },
+    "Game2": {
+      "instruction": "Your goal in this game is to build a meaningful relationship with at least one character in Rainborough and complete their full story arc. Once you do so, you will receive a code that allows you to proceed to the final section of this study. After you receive the code, please enter the code in the box located at the bottom of the game screen to move on to the final section of the study. You can see the game tutorial at any time by clicking the [Help] button in the top-right corner of the screen.",
+      "type": "website",
+      "path": "https://itch.io/embed-upload/14586204",
+      "response": [
+        {
+          "id": "gamecode",
+          "prompt": "Please enter the game's completion code to move on to the final part of the study.",
+          "secondaryText": "Please note: Entering an incorrect or random code may result in disqualification from this study.",
+          "placeholder": "Enter the game completion code.",
+          "location": "belowStimulus",
+          "required": true,
+          "type": "shortText"
+        }
+      ],
+      "correctAnswer": [
+        {
+        "answer": "ThankYouForPlayingGES2025",
+        "id": "gamecode"
+        }
+      ],
+      "instructionLocation": "aboveStimulus",
+      "provideFeedback": true,
+      "allowFailedTraining": false,
+      "trainingAttempts": 10
     },
     "Questionnaire Intro": {
       "response": [],
@@ -491,6 +517,7 @@
       },
       "Game Intro",
       "Game",
+      "Game2",
       "Questionnaire Intro",
       {
         "components": [
