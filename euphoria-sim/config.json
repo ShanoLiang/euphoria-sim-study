@@ -529,13 +529,13 @@
     "authors": [
       "Shano Liang"
     ],
-    "date": "2025-08-01",
+    "date": "2025-08-07",
     "description": "",
     "organizations": [
       "VIS Lab"
     ],
     "title": "Transgender Game Study",
-    "version": "1.0"
+    "version": "1.1"
   },
   "uiConfig": {
     "contactEmail": "sliang1@wpi.edu",
@@ -544,7 +544,7 @@
     "timeoutReject": true,
     "nextOnEnter": true,
     "sidebar": false,
-    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [unknown](unknown)",
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=CHHG7HPG](https://app.prolific.com/submissions/complete?cc=CHHG7HPG)",
     "withProgressBar": true,
     "urlParticipantIdParam": "PROLIFIC_PID",
     "participantNameField": "introduction.prolificId",
